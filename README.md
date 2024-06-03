@@ -1,8 +1,6 @@
 # Locapic
 Locapic is a mobile application that allows users to geolocate themselves by visualizing their movements on an interactive map. It also offers the ability to add points of interest and easily find them.
-You can have a preview here:
-![Screenshot_Locapic1](https://github.com/PalomaAubeau/locapic-backend/assets/154338327/238397ea-5f42-4129-bc0e-b07a9351e5cc) 
-![Screenshot_Locapic2](https://github.com/PalomaAubeau/locapic-backend/assets/154338327/d13c2e83-bda4-4386-b9ae-090d149c4a32)
+
 
 ## Features
 ### Geolocation: 
@@ -75,7 +73,8 @@ Thanks to Expo for providing a powerful platform for developing React Native app
 Thanks to React Native community for their valuable contributions.
 
 ## Get the app
-You can have a complete preview of the app by using this likn to Expo Go:
+You can have a preview here:\
+You can also have a complete preview of the app by using this link to Expo Go:
 ```
 https://expo.dev/preview/update?message=first%20repo&updateRuntimeVersion=1.0.0&createdAt=2024-05-10T16%3A01%3A07.482Z&slug=exp&projectId=e6c0a373-d95f-4967-a3dc-dcb494f7cf3a&group=ae14a7b4-0e85-4a34-99af-d6b9530d79f4
 ```
