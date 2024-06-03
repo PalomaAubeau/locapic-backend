@@ -18,23 +18,57 @@ Expo: Development platform for building React Native applications.\
 Mapping Component: React Native Maps for displaying interactive maps.\
 Geolocation: React Native Geolocation for accessing device location.\
 Navigation: React Navigation for navigating between screens.\
-API Integration: Utilizes the data.gouv.fr API for accessing cities coordinates.
+API Integration: Utilizes the data.gouv.fr API for accessing cities coordinates.\
+DataBase: MongoDB.
 
 ## Installation
 ### Prerequisites
 Node.js and npm (or yarn) should be installed on your machine.\
 Expo Go app installed on your mobile device.
 
-## Installation Steps
-Clone this repository:
+### Installation Steps
+### 1. Clone repositories into  separated folders:
 
+BACKEND:
+```
+https://github.com/PalomaAubeau/locapic-backend.git
+```
+FRONTEND:
+```
+https://github.com/PalomaAubeau/locapic-frontend.git
+```
+Open two terminals to retrieve the backend and frontend parts in parallel.
+### 2. Install dependencies for both frontend and backend:
 
-Install dependencies:
+```
+cd backend
+npm (or yarn) install
+```
+```
+cd ../frontend
+npm (or yarn) install
+```
 
-
+### 3. Configure environment variables:
+Create a .env file in the backend folder.
+Add your required keys and configurations.
+Example:
+```
+CONNECTION_STRING=your_connection_string_for_mongoDB
+```
+### 4. Start the application:
+Backend (you can use npm or yarn):
+```
+cd backend
+yarn start (or nodemon)
+```
+Frontend (you can use npm or yarn):
+```
+cd frontend
+yarn start
+```
 Open the Expo Go app on your mobile device and scan the QR code displayed in the terminal or in the Expo Dev Tools in your browser.
 The app will be bundled and loaded on your device for testing and development.
-
 
 ## Acknowledgements
 Thanks to Expo for providing a powerful platform for developing React Native applications.
