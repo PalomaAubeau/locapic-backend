@@ -74,7 +74,7 @@ Thanks to React Native community for their valuable contributions.
 
 ## Get the app
 You can have a preview here:\
-File is too big
+Oups! File is too big.\
 You can also have a complete preview of the app by using this link to Expo Go:
 ```
 https://expo.dev/preview/update?message=first%20repo&updateRuntimeVersion=1.0.0&createdAt=2024-05-10T16%3A01%3A07.482Z&slug=exp&projectId=e6c0a373-d95f-4967-a3dc-dcb494f7cf3a&group=ae14a7b4-0e85-4a34-99af-d6b9530d79f4
